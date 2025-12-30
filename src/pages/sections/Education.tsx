@@ -40,7 +40,7 @@ const Education: React.FC = () => {
                             <p className="card-text">{education?.descripcion}</p>
                             <h5 className="card-subtitle mb-2 text-bold">{education?.carrera}</h5>
                             <p className="card-text">Date of admission: {education?.fechaInicio}</p>
-                            <p className="card-text">Date of graduation: {education?.fechaFin} (expected)</p>
+                            <p className="card-text">Date of graduation: {education?.fechaFin} </p>
                         </div>
                     </div>
                 </div>
